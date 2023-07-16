@@ -1,0 +1,33 @@
+.dashboard{
+    margin-top:5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: aqua;
+}
+
+/* Base styles */
+.button {
+  margin-left: 10%;
+    width: 80%;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #5671ec;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #022533;
+  }
+
+  
+  @media (max-width: 600px) {
+    .button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
